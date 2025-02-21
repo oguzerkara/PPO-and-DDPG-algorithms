@@ -53,9 +53,11 @@ Stacking multiple state representations to provide better temporal understanding
 
 **Best Configuration:** 8 stacked observations with SubprocVecEnv for optimal balance between performance and efficiency.
 
-Results are found in Wiki: https://github.com/oguzerkara/PPO-and-DDPG-algorithms/wiki/Outcomes
 ## Conclusion
 - PPO performance is highly affected by environmental randomness and gravity shifts.
 - **Stacked observations and frame stacking provide a robust solution** for improving PPO in noisy environments.
 - Increasing entropy coefficient alone does not provide significant benefits.
 - **Parallel processing (`SubprocVecEnv`) is the preferred approach** for optimizing PPO training efficiency.
+
+
+**Results** are found in Wiki: https://github.com/oguzerkara/PPO-and-DDPG-algorithms/wiki/Outcomes
